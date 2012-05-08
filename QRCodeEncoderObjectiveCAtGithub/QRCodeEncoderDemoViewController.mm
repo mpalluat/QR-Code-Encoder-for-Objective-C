@@ -35,8 +35,8 @@
     CGRect tabBarFrame = self.tabBarController.tabBar.frame;
     
     //center the image
-    CGFloat x = (parentFrame.size.width - qrcodeImageDimension) / 2.0;
-    CGFloat y = (parentFrame.size.height - qrcodeImageDimension - tabBarFrame.size.height) / 2.0;
+    CGFloat x = (parentFrame.size.width - qrcodeImageDimension) / 2.0f;
+    CGFloat y = (parentFrame.size.height - qrcodeImageDimension - tabBarFrame.size.height) / 2.0f;
     CGRect qrcodeImageViewFrame = CGRectMake(x, y, qrcodeImageDimension, qrcodeImageDimension);
     [qrcodeImageView setFrame:qrcodeImageViewFrame];
     
