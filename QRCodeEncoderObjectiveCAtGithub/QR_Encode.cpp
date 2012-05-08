@@ -4,6 +4,7 @@
 #include "QR_Encode.h"
 
 #pragma GCC diagnostic ignored "-Wmissing-braces"
+#pragma GCC diagnostic ignored "-Wmissing-field-initializers"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
