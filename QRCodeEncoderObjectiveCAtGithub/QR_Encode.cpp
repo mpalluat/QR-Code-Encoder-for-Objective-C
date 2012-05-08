@@ -3,6 +3,8 @@
 
 #include "QR_Encode.h"
 
+#pragma GCC diagnostic ignored "-Wmissing-braces"
+
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #undef THIS_FILE

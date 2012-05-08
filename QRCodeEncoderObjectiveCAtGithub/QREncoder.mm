@@ -1,5 +1,6 @@
 
 #import "QREncoder.h"
+#include "QR_Encode.h"
 
 
 @implementation QREncoder
