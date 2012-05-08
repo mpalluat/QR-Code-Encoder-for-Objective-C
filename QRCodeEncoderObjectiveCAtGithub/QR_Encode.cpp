@@ -6,12 +6,6 @@
 #pragma GCC diagnostic ignored "-Wmissing-braces"
 #pragma GCC diagnostic ignored "-Wmissing-field-initializers"
 
-#ifdef _DEBUG
-#define new DEBUG_NEW
-#undef THIS_FILE
-static char THIS_FILE[] = __FILE__;
-#endif
-
 /////////////////////////////////////////////////////////////////////////////
 // QRコードバージョン(型番)情報
 static QR_VERSIONINFO QR_VersonInfo[] = {{0}, // (ダミー:Ver.0)
